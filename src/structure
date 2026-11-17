@@ -1,0 +1,15 @@
+src
+│
+├── data
+│   ├── pokemonData.js
+│   └── typeChart.js
+│
+├── utils
+│   └── battleLogic.js
+│
+├── components
+│   ├── PokemonSelector.jsx
+│   ├── PokemonCard.jsx
+│   └── RecommendationList.jsx
+│
+└── App.jsx
