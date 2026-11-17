@@ -34,6 +34,7 @@ const Card = ({ id, name, type, hp, attack }) => {
           src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`}
           alt={id}
           height={120}
+          style={{ display: "block", margin: "0 auto" }}
         />
         <div class="bar" style={{ display: "flex", alignItems: "center" }}>
           <span style={{ width: "40px", textAlign: "left" }}>HP </span>
