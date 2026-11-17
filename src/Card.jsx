@@ -18,7 +18,7 @@ const Card = ({ id, name, type, hp, attack }) => {
         }}
       >
         <img
-          src={`${import.meta.env.BASE_URL}icons//icons/${type.toLowerCase()}.svg`}
+          src={`${import.meta.env.BASE_URL}/icons/${type.toLowerCase()}.svg`}
           alt={type}
           height={30}
           width={"auto"}
@@ -31,7 +31,7 @@ const Card = ({ id, name, type, hp, attack }) => {
         <h2 style={{ textAlign: "center" }}>{name}</h2>
 
         <img
-          src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.svg`}
+          src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`}
           alt={id}
           height={120}
         />
