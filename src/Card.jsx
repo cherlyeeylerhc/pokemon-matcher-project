@@ -43,7 +43,11 @@ const Card = ({ id, name, type, hp, attack }) => {
         <div class="bar" style={{ display: "flex", alignItems: "center" }}>
           <span style={{ width: "40px", textAlign: "left" }}>ATK</span>
           <Barplot color="#ed8505" data={[attack]} max={150} />
-          <span style={{ width: "30px", textAlign: "right" }}>{attack}</span>
+          <span
+            style={{ width: "30px", textAlign: "right", marginBottom: "10px" }}
+          >
+            {attack}
+          </span>
         </div>
       </div>
     </>
