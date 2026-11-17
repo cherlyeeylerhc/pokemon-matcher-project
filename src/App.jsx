@@ -99,7 +99,7 @@ function App() {
   return (
     <>
       <div id="hero">
-        <h1>Pokématch</h1>
+        <h1>Pokématch test</h1>
       </div>
       {/* Mode Switcher Buttons */}
       <div className="button-container">
